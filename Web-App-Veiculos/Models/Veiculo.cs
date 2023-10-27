@@ -22,5 +22,7 @@ namespace Web_App_Veiculos.Models
         [Required(ErrorMessage = "Obrigatório informar o Ano do Modelo")]
         [Display(Name = "Ano do Modelo")]
         public int AnoModelo { get; set; }
+
+        public ICollection<Consumo> Consumos { get; set; }
     }
 }
