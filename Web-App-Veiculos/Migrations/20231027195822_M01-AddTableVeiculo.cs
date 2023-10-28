@@ -17,7 +17,8 @@ namespace Web_App_Veiculos.Migrations
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Placa = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AnoFabricacao = table.Column<int>(type: "int", nullable: false),
-                    AnoModelo = table.Column<int>(type: "int", nullable: false)
+                    AnoModelo = table.Column<int>(type: "int", nullable: false)                 
+
                 },
                 constraints: table =>
                 {
